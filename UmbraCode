@@ -1,5 +1,5 @@
 @echo off
-title Umbra by Mint Eye
+title Umbra
 if exist "ControlPanel.{UMBRA}" goto reveal
 if not exist "Umbra" goto newuser
 if exist "Umbra" goto hide
@@ -18,7 +18,7 @@ if exist Umbra goto newusergood
 if not exist Umbra goto newuserbad
 :newusergood
 echo Umbra setup successful!
-echo Made with love by Kuudere and JustLilith~
+echo Made with love by JustLilith of Gesta~
 timeout 3 >nul
 goto end
 :newuserbad
