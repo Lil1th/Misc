@@ -1,5 +1,5 @@
 @echo off
-title Yulya by Mint Eye
+title Yulya
 cd C:\Users\%username%\AppData\Local\Google\Chrome\User Data\Profile 1\Extensions\mefhakmgclhhfbdadeojlkbllmecialg\1.5.0_2\_metadata
 :delver
 del "computed_hashes.json"
