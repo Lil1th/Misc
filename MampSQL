@@ -1,5 +1,5 @@
 @echo off
-title MampSQL by Mint Eye
+title MampSQL
 echo Removing MySQL's index and temporary files...
 cd C:\MAMP\db\mysql
 del mysql-bin.*
@@ -8,5 +8,5 @@ echo Temporary files cleared. MySQL should function.
 echo Starting MAMP...
 cd C:\MAMP
 start MAMP.exe
-echo MampSQL by JustLilith of Mint Eye.
+echo MampSQL by JustLilith
 timeout 1 >nul
